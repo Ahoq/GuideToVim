@@ -14,32 +14,78 @@
             <div style="text-align:center">
                 <p>
                 <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Laurentius_de_Voltolina_001.jpg/290px-Laurentius_de_Voltolina_001.jpg">
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Italian_regions_provinces_white_no_labels.svg/455px-Italian_regions_provinces_white_no_labels.svg.png"
+                height="300" width="200"
+                >
                 </p>
             </div>
 
             <h2>
-                Major topic
+                Changing regions of text
             </h2>
 
                 <h3>
-                    Minor topic
+                    By character
                 </h3>
 
                 <p>
-                Ctrl-f
-                Ctrl-b
+                    <span class="vim_key">x</span>:
+                    already mentioned; deletes one character.
+                    <br>
+                    <b>r</b>: replaces one character with the next one typed.
+                    <br>
+                    <b>s</b>: substitutes for a single character whatever is
+                    typed next until <b>Esc</b> is hit.
+                    <br>
+                    Why use r instead of s?
+                    <br>
+                    <b>r</b> and <b>s</b> seem to do almost the same thing. Why
+                    use <b>r</b>, when <b>s</b> seems more flexible? Well, if
+                    you know you only need to substitute one character for
+                    another, <b>r</b> saves you from entering insert mode, and
+                    then having to leave it.
                 </p>
 
-            <h2>
-                External Links
-            </h2>
-                <ul>
-                    <li>
-                        <a href="https://en.wikipedia.org/wiki/Lecture">
-                        Lectures
-                        </a>
-                </ul>
-            
+                <h3>
+                    By word
+                </h3>
+
+                <p>
+                    <b>cw</b>:
+                    Changes the word under the cursor to whatever is typed up
+                    until <b>Esc</b>.
+                    <br>
+                    <b>dw</b>:
+                    Deletes the word under the cursor.
+                    <br>
+                </p>
+
+                <h3>
+                    By line
+                </h3>
+
+                <p>
+                    <b>dd</b>:
+                    <br>
+                    Deletes the entire line of text under the cursor.
+                    <br>
+                    <b>C</b>:
+                    <br>
+                    Changes the line from the point the cursor is at on.
+                    <br>
+                    <b>J</b>:
+                    <br>
+                    Pulls the next line up into the line the cursor is on.
+                </p>
+
+                <h3>
+                    Adding a count
+                </h3>
+
+                <p>
+                Most of these commands can take a number in front, so <b>10cw</b>
+                changes ten words.
+                </p>
+
     </body>
 </html>
