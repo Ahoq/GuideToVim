@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Guide to Vim: Lesson 4
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            Guide to Vim: Lesson 4
+        </h1>
+
+        <div style="text-align:center">
+                <p>
+                    <img
+                    src="https://blog.pdffiller.com/app/uploads/2016/11/1.-UNDO-REDO.png"
+                    height="100" width="200"
+                    >
+                </p>
+        </div>
+
+        <div style="text-align:center">
+                <p>
+                    <img
+                    src="https://openclipart.org/download/223635/Exit-by-Rones.svg"
+                    height="200" width="200"
+                    >
+                </p>
+        </div>
+          <br> <br>
+        <h2>
+                Undoing, Redoing and Exiting
+        </h2>
+
+        <h3>
+            Undoing
+        </h3>
+        <p>
+           n<b>u</b> :	Undo changes. Here <b>n</b> is an integer. For instance, when <b>n</b> is 1,
+                        you type <b>u (or 1u)</b>, then only the last change will be undone. If you type <b>4u</b>,
+                        then four changes will be undone.
+            <br> <br>
+           <b>:u</b> :	Undo one change.
+             <br> <br>
+           <b>U</b> :    Undo all latest changes on one line.
+             <br> <br>
+        </p>
+
+        <h3>
+            Redoing
+        </h3>
+        <p>
+            <b>Ctrl+R</b> : Redoes changes which were undone.
+              <br> <br>
+            <b>:red</b> :    Redoes one change which was undone.
+              <br> <br>
+
+        </p>
+
+        <h3>
+            Exiting
+        </h3>
+
+        <p>
+            <b>:q</b> :	Quit Vim. This fails when changes have been made.
+              <br> <br>
+            <b>:q!</b> : Quit without writing.
+              <br> <br>
+            <b>:cq</b> : Quit always, without writing.
+              <br> <br>
+            <b>:wq</b> : Write the current file and exit.
+              <br> <br>
+            <b>:wq!</b> :    Write the current file and exit always.
+              <br> <br>
+            <b>ZZ</b> :  Write current file, if modified, and exit.
+              <br> <br>
+            <b>ZQ</b> :  Quit current file and exit.
+        </p>
+        <br> <br>
+    </body>
+</html>
