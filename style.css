@@ -16,6 +16,7 @@ a:visited {
 
 
 table, th, td {
+    margin: 8px 40px 8px 40px;
     border: 1px solid black;
     }
     th, td {
