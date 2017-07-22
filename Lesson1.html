@@ -23,20 +23,21 @@
             </h2>
 
                 <h3>
-                    Arrow keys
+                    Replacing the arrow keys
                 </h3>
-                    <p>
-                    1) Don't touch the arrow keys!
-                    (You have to drop the habit of using them hard,
-                    since your muscles are trained to reach for them.)
-                    <br>
-                    <br>
-                    2) Most vi commands can take a number in front.
-                    xCmd will do Cmd x times.
-                    <br>
-                    <br>
-                    3) Instead of arrow keys:
-                    <br>
+                    <ol>
+                        <li>
+                        Don't touch the arrow keys, at least for a while!
+                        (You have to drop the habit of using them <i>hard</i>,
+                        since your muscles are trained to reach for them.)
+                        They can be useful later, but for now avoid
+                        them.
+                        </li>
+                        <li>
+                        Instead of the arrow keys, use:
+                        </li>
+                    </ol>
+
                     <table>
                         <tr>
                             <th>
@@ -47,41 +48,39 @@
                             </th>
                         </tr>
                         <tr>
-                            <td><b>h</b></td>
+                            <td><i>h</i></td>
                             <td>left-arrow</td>
                         </tr>
                         <tr>
-                            <td><b>j</b></td>
+                            <td><i>j</i></td>
                             <td>down-arrow</td>
                         </tr>
                         <tr>
-                            <td><b>k</b></td>
+                            <td><i>k</i></td>
                             <td>up-arrow</td>
                         </tr>
                         <tr>
-                            <td><b>l</b></td>
+                            <td><i>l</i></td>
                             <td>right-arrow</td>
                         </tr>
                     </table>
-                    <br>
-                    <br>
-
-                    First of all, your fingers are still in 'home position.'
-                    <br>
-                    <br>
-
-                    But also, to go up 10 lines:
-                    <br>
-                    <b>10k</b>
-                    <br>
-
-                    Back 8 characters:
-                    <br>
-                    <b>8h</b>
+                    
+                    <p>
+                        Note: Many vim commands can take a number in front.
+                        <i>xY</i> will do the command Y x times.
+        
+                        So, to go up 10 lines, type:
+                        <br>
+                        <i>10k</i>
+                        <br>
+    
+                        Or to go back 8 characters, type:
+                        <br>
+                        <i>8h</i>
                     </p>
 
                 <h3>
-                    Page up and down
+                    Paging up and down
                 </h3>
                     <p>
                     <table>
@@ -94,24 +93,39 @@
                             </th>
                         </tr>
                         <tr>
-                            <td><b>Ctrl-f</b></td>
+                            <td><i>Ctrl-f</i></td>
                             <td>page down</td>
                         </tr>
                         <tr>
-                            <td><b>Ctrl-b</b></td>
+                            <td><i>Ctrl-b</i>
+                            </td>
                             <td>page up</td>
                         </tr>
                     </table>
                     </p>
-                    <br>
-                    <br>
-                    (Ctrl-key means hold down the control key while typing
-                    key.)
+                    <p>
+                    (<i>Ctrl-f</i> means hold down the control key while typing
+                    the key <i>f</i>.)
+                    <br />
+                    We can use mnemonics here to remember these commands
+                    better:
+                    <br />
+                    <i>Ctrl-f</i> goes <i>f</i>orward in the file.
+                    <br />
+                    <i>Ctrl-b</i> goes <i>b</i>ackwards in the file.
+                    </p>
 
                 <h3>
                     Go directly to a line
                 </h3>
                     <p>
+                        Sometimes we want to just shoot directly to some line
+                        of text. For instance, if our programming language
+                        reports, "Syntax error on line 17," we want to go look
+                        at (and probably edit) that line.
+                        <br />
+                        Here's how to do that:
+                    </p>
                     <table>
                         <tr>
                             <th>
@@ -122,16 +136,37 @@
                             </th>
                         </tr>
                         <tr>
-                            <td><b>xG</b></td>
+                            <td><i>xG</i></td>
                             <td>goes directly to line x</td>
                         </tr>
                         <tr>
-                            <td><b>G</b></td>
+                            <td><i>G</i></td>
                             <td>goes to the end of the file</td>
                         </tr>
                     </table>
+                    <p>
+                        The mnemonic to remember this command is that <i>G</i>
+                        means <i>G</i>o to a line!
                     </p>
-                    <br> <br>
+
+
+                <h3>
+                    Practice
+                </h3>
+
+                    <p>
+                        Type 40 lines of text into <i>practice.txt</i>. (Remember,
+                        use <i>vim practice.txt</i> to edit the file, and use
+                        <i>i</i> to insert text.) It doesn't matter now what you
+                        type: nonsense will do!
+                        <br />
+                        Hit <Esc> to go back to command mode.
+                        <br />
+                        Now use each of the above commands to move around the file.
+                        <br />
+                        Practice each one until you have some muscle memory for
+                        the command.
+                    </p>
 
     </body>
 </html>
