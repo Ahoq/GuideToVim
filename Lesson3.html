@@ -29,93 +29,121 @@
             Insertion
         </h3>
 
-        <p>
            <table>
                <tr>
-                        <th>
-                            Keys to type
-                        </th>
-                        <th>
-                            What they do
-                        </th>
+                    <th>
+                        Keys to type
+                    </th>
+                    <th>
+                        What they do
+                    </th>
                 </tr>
                 <tr>
-                    <td><b>a</b></td>
-                    <td>appends text after the cursor</td>
+                    <td class="vim-key">
+                    a
+                    </td>
+                    <td>
+                    appends text after the cursor
+                    </td>
                 </tr>
                 <tr>
-                    <td><b>A</b></td>
-                    <td>appends text at the end of the current line</td>
+                    <td class="vim-key">
+                    A
+                    </td>
+                    <td>
+                    appends text at the end of the current line
+                    </td>
                 </tr>
                 <tr>
-                    <td><b>i</b> </td>
-                    <td>inserts text before the cursor</td>
+                    <td class="vim-key">
+                    i
+                    </td>
+                    <td>
+                    inserts text before the cursor
+                    </td>
                 </tr>
                 <tr>
-                    <td><b>I</b></td>
-                    <td>inserts text at the begining of the current line</td>
+                    <td class="vim-key">
+                    I
+                    </td>
+                    <td>
+                    inserts text at the begining of the current line
+                    </td>
                 </tr>
                 <tr>
-                    <td><b>o</b></td>
-                    <td>opens up a new line below the cursor and inserts text</td>
+                    <td class="vim-key">
+                    o
+                    </td>
+                    <td>
+                    opens up a new line below the cursor and inserts text
+                    </td>
                 </tr>
                 <tr>
-                    <td><b>O</b></td>
-                    <td>opens up a new line above the cursor and inserts text</td>
+                    <td class="vim-key">
+                    <i>O</i>
+                    </td>
+                    <td>
+                    opens up a new line above the cursor and inserts text
+                    </td>
                 </tr>
             </table>
-        </p>
 
         <h3>
             Deletion
         </h3>
 
-        <p>
             <table>
                 <tr>
-                        <th>
-                            Keys to type
-                        </th>
-                        <th>
-                            What they do
-                        </th>
+                    <th>
+                        Keys to type
+                    </th>
+                    <th>
+                        What they do
+                    </th>
                 </tr>
                 <tr>
-                    <td>n<b>x</b></td>
-                    <td>deletes characters under and after the cursor. Here <b>n</b> is an integer. For instance, when <b>n</b> is 1,
-                    you type <b>x (or 1x)</b>, then only the character under the cursor will be deleted. If you type <b>4x</b>,
-                    then four characters (the character under the cursor and three characters that follow) will be deleted</td>
+                    <td class="vim-key">
+                    (n)x
+                    </td>
+                    <td>
+                    deletes characters under and after the cursor.
+                    Here <i>n</i> is an integer. For instance, when <i>n</i> is 1,
+                    you type <i>x (or 1x)</i>, then only the character
+                    under the cursor will be deleted. If you type <i>4x</i>,
+                    then four characters (the character under the cursor and
+                    three characters that follow) will be deleted
+                    </td>
                 </tr>
                 <tr>
-                    <td>n<b>X</b></td>
-                    <td>deletes characters before the cursor. Here <b>n</b> is an integer. For instance, when <b>n</b> is 1,
-                    you type <b>X (or 1X)</b>, then only the character under the cursor will be deleted. If you type <b>4X</b>,
-                    then four characters before the cursor will be deleted</td>
+                    <td class="vim-key">
+                    <i>D</i>
+                    </td>
+                    <td>
+                    deletes from the character under the cursor until the end of the line
+                    </td>
                 </tr>
                 <tr>
-                    <td><b>D or d$</b></td>
-                    <td>deletes the characters under the cursor until the end of the line</td>
+                    <td class="vim-key">
+                    (n)dw
+                    </td>
+                    <td>
+                    deletes the word on which the is cursor placed
+                    </td>
                 </tr>
                 <tr>
-                    <td><b>dw</b></td>
-                    <td>deletes the word on which the is cursor placed</td>
-                </tr>
-                <tr>
-                    <td><b>db</b> </td>
-                    <td>deletes the word before the current word</td>
-                </tr>
-                <tr>
-                    <td><b>d^</b></td>
-                    <td>deletes up to the begining of the current line, starting from the character before the cursor</td>
-                </tr>
-                <tr>
-                    <td>n<b>dd</b></td>
-                    <td>deletes the current line. Here <b>n</b> is an integer. For instance, when <b>n</b> is 1,
-                    you type <b>dd</b> (or 1dd)</b>, then only the current line under the cursor will be deleted. If you type <b>4dd</b>,
-                    then four lines (the current line under the cursor and three lines that follow) will be deleted</td>
+                    <td class="vim-key">
+                    (n)dd
+                    </td>
+                    <td>
+                    deletes the current line.
+                    Here <i>n</i> is an
+                    integer. For instance, when <i>n</i> is 1,
+                    you type <i>dd</i> (or 1dd)</i>, then only the
+                    current line under the cursor will be deleted. If you type <i>4dd</i>,
+                    then four lines (the current line under the cursor 
+                    and three lines that follow) will be deleted
+                    </td>
                 </tr>
             </table>
-        </p>
-        <br> <br>
     </body>
 </html>
