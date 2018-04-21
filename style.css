@@ -3,15 +3,16 @@ body {
     padding: 0;
     font-size: 100%;
     color: #000;
-    background: #dde;
+    background: #cbe;
 }
 
 a:link {
-    color: #357;
+    color: #933;
+    text-decoration: none;
 }
 
 a:visited {
-    color: #537;
+    color: #931;
 }
 
 
@@ -45,12 +46,16 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-    margin: 28px .8em 2em .8em;
+    margin: 0em 0em 0em 0em;
     text-align: center;
     font-weight: 300;
     font-size: 2.4em;
-    color: #339;
-    background-color: #cfc;
+    height:2em;
+    width: 100%;
+    line-height:1em;
+    color: #edf2cb;
+    padding: 1em 0em 0em 0em;
+    background-color: #444;
 }
 
 h2 {
@@ -96,9 +101,71 @@ td.vim-key {
 
 
 
+.navbar {
+    overflow: hidden;
+    background-color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    float:right;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#f7e6e6;
+}
 
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #f7e6e6;
+}
 
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
 
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #f7e6e6;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
 
+}
 
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #933;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cbe;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
